@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+
+.banner-scroll .slick-dots li {
+    background: #0C0F351A;
+    width: 30px;
+    margin: 0;
+    text-align: center;
+}
+
+.banner-scroll .slick-dots li:first-child {
+    border-radius: 8px 0 0 8px;
+}
+
+.banner-scroll .slick-dots li:last-child{
+    border-radius: 0 8px 8px 0;
+}
